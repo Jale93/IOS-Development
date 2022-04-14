@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE1DD27428085E9800561102 /* CarRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1DD27328085E9800561102 /* CarRepository.swift */; };
+		CE1DD27628085F1600561102 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1DD27528085F1600561102 /* MainViewModel.swift */; };
 		CE5963F2280555F200851837 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5963F1280555F200851837 /* AppDelegate.swift */; };
 		CE5963F6280555F200851837 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5963F5280555F200851837 /* ViewController.swift */; };
 		CE5963FB280555F300851837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5963FA280555F300851837 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE1DD27328085E9800561102 /* CarRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepository.swift; sourceTree = "<group>"; };
+		CE1DD27528085F1600561102 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		CE5963EE280555F200851837 /* Session2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Session2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5963F1280555F200851837 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE5963F5280555F200851837 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 				CE5963FA280555F300851837 /* Assets.xcassets */,
 				CE5963FC280555F300851837 /* LaunchScreen.storyboard */,
 				CE5963FF280555F300851837 /* Info.plist */,
+				CE1DD27328085E9800561102 /* CarRepository.swift */,
+				CE1DD27528085F1600561102 /* MainViewModel.swift */,
 			);
 			path = Session2;
 			sourceTree = "<group>";
@@ -131,8 +137,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1DD27428085E9800561102 /* CarRepository.swift in Sources */,
 				CE5963F6280555F200851837 /* ViewController.swift in Sources */,
 				CE5963F2280555F200851837 /* AppDelegate.swift in Sources */,
+				CE1DD27628085F1600561102 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
